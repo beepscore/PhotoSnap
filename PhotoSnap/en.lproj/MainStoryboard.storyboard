@@ -34,6 +34,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="presentCamera:" destination="2" eventType="touchUpInside" id="k8H-f0-Igu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -48,6 +51,10 @@
                             <constraint firstItem="9Rc-T4-8tC" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="yfq-b8-47W"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageLabel" destination="uyq-T7-J2J" id="oB4-6g-qne"/>
+                        <outlet property="imageView" destination="9Rc-T4-8tC" id="s8i-t6-M6P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,6 +63,11 @@
     <classes>
         <class className="BSViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BSViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="presentCamera:"/>
+                <relationship kind="outlet" name="imageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
