@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DECBDC9517A7413A00022EF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBDC9417A7413A00022EF0 /* UIKit.framework */; };
+		DECBDC9717A7413A00022EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBDC9617A7413A00022EF0 /* Foundation.framework */; };
+		DECBDC9917A7413A00022EF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBDC9817A7413A00022EF0 /* CoreGraphics.framework */; };
+		DECBDC9F17A7413A00022EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DECBDC9D17A7413A00022EF0 /* InfoPlist.strings */; };
+		DECBDCA117A7413A00022EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECBDCA017A7413A00022EF0 /* main.m */; };
+		DECBDCA517A7413A00022EF0 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DECBDCA417A7413A00022EF0 /* BSAppDelegate.m */; };
+		DECBDCA717A7413A00022EF0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DECBDCA617A7413A00022EF0 /* Default.png */; };
+		DECBDCA917A7413A00022EF0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DECBDCA817A7413A00022EF0 /* Default@2x.png */; };
+		DECBDCAB17A7413A00022EF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DECBDCAA17A7413A00022EF0 /* Default-568h@2x.png */; };
+		DECBDCAE17A7413A00022EF0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECBDCAC17A7413A00022EF0 /* MainStoryboard.storyboard */; };
+		DECBDCB117A7413A00022EF0 /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DECBDCB017A7413A00022EF0 /* BSViewController.m */; };
+		DECBDCB917A7413A00022EF0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBDCB817A7413A00022EF0 /* SenTestingKit.framework */; };
+		DECBDCBA17A7413A00022EF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBDC9417A7413A00022EF0 /* UIKit.framework */; };
+		DECBDCBB17A7413A00022EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBDC9617A7413A00022EF0 /* Foundation.framework */; };
+		DECBDCC317A7413B00022EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DECBDCC117A7413B00022EF0 /* InfoPlist.strings */; };
+		DECBDCC617A7413B00022EF0 /* PhotoSnapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DECBDCC517A7413B00022EF0 /* PhotoSnapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECBDCBC17A7413B00022EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECBDC8917A7413A00022EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECBDC9017A7413A00022EF0;
+			remoteInfo = PhotoSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DECBDC9117A7413A00022EF0 /* PhotoSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECBDC9417A7413A00022EF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DECBDC9617A7413A00022EF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DECBDC9817A7413A00022EF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DECBDC9C17A7413A00022EF0 /* PhotoSnap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoSnap-Info.plist"; sourceTree = "<group>"; };
+		DECBDC9E17A7413A00022EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DECBDCA017A7413A00022EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DECBDCA217A7413A00022EF0 /* PhotoSnap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoSnap-Prefix.pch"; sourceTree = "<group>"; };
+		DECBDCA317A7413A00022EF0 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		DECBDCA417A7413A00022EF0 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		DECBDCA617A7413A00022EF0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DECBDCA817A7413A00022EF0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DECBDCAA17A7413A00022EF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DECBDCAD17A7413A00022EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DECBDCAF17A7413A00022EF0 /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
+		DECBDCB017A7413A00022EF0 /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		DECBDCB717A7413A00022EF0 /* PhotoSnapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSnapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECBDCB817A7413A00022EF0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DECBDCC017A7413B00022EF0 /* PhotoSnapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoSnapTests-Info.plist"; sourceTree = "<group>"; };
+		DECBDCC217A7413B00022EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DECBDCC417A7413B00022EF0 /* PhotoSnapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSnapTests.h; sourceTree = "<group>"; };
+		DECBDCC517A7413B00022EF0 /* PhotoSnapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSnapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECBDC8E17A7413A00022EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBDC9517A7413A00022EF0 /* UIKit.framework in Frameworks */,
+				DECBDC9717A7413A00022EF0 /* Foundation.framework in Frameworks */,
+				DECBDC9917A7413A00022EF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECBDCB317A7413A00022EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBDCB917A7413A00022EF0 /* SenTestingKit.framework in Frameworks */,
+				DECBDCBA17A7413A00022EF0 /* UIKit.framework in Frameworks */,
+				DECBDCBB17A7413A00022EF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECBDC8817A7413A00022EF0 = {
+			isa = PBXGroup;
+			children = (
+				DECBDC9A17A7413A00022EF0 /* PhotoSnap */,
+				DECBDCBE17A7413B00022EF0 /* PhotoSnapTests */,
+				DECBDC9317A7413A00022EF0 /* Frameworks */,
+				DECBDC9217A7413A00022EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECBDC9217A7413A00022EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECBDC9117A7413A00022EF0 /* PhotoSnap.app */,
+				DECBDCB717A7413A00022EF0 /* PhotoSnapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECBDC9317A7413A00022EF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DECBDC9417A7413A00022EF0 /* UIKit.framework */,
+				DECBDC9617A7413A00022EF0 /* Foundation.framework */,
+				DECBDC9817A7413A00022EF0 /* CoreGraphics.framework */,
+				DECBDCB817A7413A00022EF0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECBDC9A17A7413A00022EF0 /* PhotoSnap */ = {
+			isa = PBXGroup;
+			children = (
+				DECBDCA317A7413A00022EF0 /* BSAppDelegate.h */,
+				DECBDCA417A7413A00022EF0 /* BSAppDelegate.m */,
+				DECBDCAC17A7413A00022EF0 /* MainStoryboard.storyboard */,
+				DECBDCAF17A7413A00022EF0 /* BSViewController.h */,
+				DECBDCB017A7413A00022EF0 /* BSViewController.m */,
+				DECBDC9B17A7413A00022EF0 /* Supporting Files */,
+			);
+			path = PhotoSnap;
+			sourceTree = "<group>";
+		};
+		DECBDC9B17A7413A00022EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECBDC9C17A7413A00022EF0 /* PhotoSnap-Info.plist */,
+				DECBDC9D17A7413A00022EF0 /* InfoPlist.strings */,
+				DECBDCA017A7413A00022EF0 /* main.m */,
+				DECBDCA217A7413A00022EF0 /* PhotoSnap-Prefix.pch */,
+				DECBDCA617A7413A00022EF0 /* Default.png */,
+				DECBDCA817A7413A00022EF0 /* Default@2x.png */,
+				DECBDCAA17A7413A00022EF0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DECBDCBE17A7413B00022EF0 /* PhotoSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECBDCC417A7413B00022EF0 /* PhotoSnapTests.h */,
+				DECBDCC517A7413B00022EF0 /* PhotoSnapTests.m */,
+				DECBDCBF17A7413B00022EF0 /* Supporting Files */,
+			);
+			path = PhotoSnapTests;
+			sourceTree = "<group>";
+		};
+		DECBDCBF17A7413B00022EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECBDCC017A7413B00022EF0 /* PhotoSnapTests-Info.plist */,
+				DECBDCC117A7413B00022EF0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECBDC9017A7413A00022EF0 /* PhotoSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECBDCC917A7413B00022EF0 /* Build configuration list for PBXNativeTarget "PhotoSnap" */;
+			buildPhases = (
+				DECBDC8D17A7413A00022EF0 /* Sources */,
+				DECBDC8E17A7413A00022EF0 /* Frameworks */,
+				DECBDC8F17A7413A00022EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSnap;
+			productName = PhotoSnap;
+			productReference = DECBDC9117A7413A00022EF0 /* PhotoSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECBDCB617A7413A00022EF0 /* PhotoSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECBDCCC17A7413B00022EF0 /* Build configuration list for PBXNativeTarget "PhotoSnapTests" */;
+			buildPhases = (
+				DECBDCB217A7413A00022EF0 /* Sources */,
+				DECBDCB317A7413A00022EF0 /* Frameworks */,
+				DECBDCB417A7413A00022EF0 /* Resources */,
+				DECBDCB517A7413A00022EF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECBDCBD17A7413B00022EF0 /* PBXTargetDependency */,
+			);
+			name = PhotoSnapTests;
+			productName = PhotoSnapTests;
+			productReference = DECBDCB717A7413A00022EF0 /* PhotoSnapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECBDC8917A7413A00022EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Beepscore LLC";
+			};
+			buildConfigurationList = DECBDC8C17A7413A00022EF0 /* Build configuration list for PBXProject "PhotoSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DECBDC8817A7413A00022EF0;
+			productRefGroup = DECBDC9217A7413A00022EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECBDC9017A7413A00022EF0 /* PhotoSnap */,
+				DECBDCB617A7413A00022EF0 /* PhotoSnapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECBDC8F17A7413A00022EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBDC9F17A7413A00022EF0 /* InfoPlist.strings in Resources */,
+				DECBDCA717A7413A00022EF0 /* Default.png in Resources */,
+				DECBDCA917A7413A00022EF0 /* Default@2x.png in Resources */,
+				DECBDCAB17A7413A00022EF0 /* Default-568h@2x.png in Resources */,
+				DECBDCAE17A7413A00022EF0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECBDCB417A7413A00022EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBDCC317A7413B00022EF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DECBDCB517A7413A00022EF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECBDC8D17A7413A00022EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBDCA117A7413A00022EF0 /* main.m in Sources */,
+				DECBDCA517A7413A00022EF0 /* BSAppDelegate.m in Sources */,
+				DECBDCB117A7413A00022EF0 /* BSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECBDCB217A7413A00022EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECBDCC617A7413B00022EF0 /* PhotoSnapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECBDCBD17A7413B00022EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECBDC9017A7413A00022EF0 /* PhotoSnap */;
+			targetProxy = DECBDCBC17A7413B00022EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DECBDC9D17A7413A00022EF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECBDC9E17A7413A00022EF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DECBDCAC17A7413A00022EF0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECBDCAD17A7413A00022EF0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DECBDCC117A7413B00022EF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECBDCC217A7413B00022EF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DECBDCC717A7413B00022EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DECBDCC817A7413B00022EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECBDCCA17A7413B00022EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSnap/PhotoSnap-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSnap/PhotoSnap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DECBDCCB17A7413B00022EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSnap/PhotoSnap-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSnap/PhotoSnap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DECBDCCD17A7413B00022EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoSnap.app/PhotoSnap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSnap/PhotoSnap-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSnapTests/PhotoSnapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DECBDCCE17A7413B00022EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoSnap.app/PhotoSnap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSnap/PhotoSnap-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSnapTests/PhotoSnapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECBDC8C17A7413A00022EF0 /* Build configuration list for PBXProject "PhotoSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECBDCC717A7413B00022EF0 /* Debug */,
+				DECBDCC817A7413B00022EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECBDCC917A7413B00022EF0 /* Build configuration list for PBXNativeTarget "PhotoSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECBDCCA17A7413B00022EF0 /* Debug */,
+				DECBDCCB17A7413B00022EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DECBDCCC17A7413B00022EF0 /* Build configuration list for PBXNativeTarget "PhotoSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECBDCCD17A7413B00022EF0 /* Debug */,
+				DECBDCCE17A7413B00022EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DECBDC8917A7413A00022EF0 /* Project object */;
+}
