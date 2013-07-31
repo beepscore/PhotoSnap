@@ -56,11 +56,7 @@
     
     cameraUI.delegate = delegate;
     
-    // as side effect this should set cameraUI parentview controller?
-//    [controller presentViewController:cameraUI
-//                             animated:YES
-//                           completion:nil];
-    [self presentViewController:cameraUI
+    [controller presentViewController:cameraUI
                              animated:YES
                            completion:nil];
     return YES;
@@ -100,8 +96,9 @@
         self.imageView.image = imageToSave;
     }
    
-//    [[picker parentViewController] dismissViewControllerAnimated:YES completion:nil];
-    [self dismissViewControllerAnimated:YES completion:nil];
+    // in iOS >= 5, use presentingViewController not parentViewController
+    // alternatively, if you call message on presented view controller it will be forwarded to presentingViewController.
+    [picker.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
