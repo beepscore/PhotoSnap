@@ -25,6 +25,8 @@
 		DECBDCBB17A7413A00022EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECBDC9617A7413A00022EF0 /* Foundation.framework */; };
 		DECBDCC317A7413B00022EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DECBDCC117A7413B00022EF0 /* InfoPlist.strings */; };
 		DECBDCC617A7413B00022EF0 /* PhotoSnapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DECBDCC517A7413B00022EF0 /* PhotoSnapTests.m */; };
+		DEE1DA4617A8BF5800FD0A8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEE1DA4517A8BF5800FD0A8E /* README.md */; };
+		DEE1DA4817A8BF6C00FD0A8E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DEE1DA4717A8BF6C00FD0A8E /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		DECBDCC217A7413B00022EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DECBDCC417A7413B00022EF0 /* PhotoSnapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSnapTests.h; sourceTree = "<group>"; };
 		DECBDCC517A7413B00022EF0 /* PhotoSnapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSnapTests.m; sourceTree = "<group>"; };
+		DEE1DA4517A8BF5800FD0A8E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DEE1DA4717A8BF6C00FD0A8E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		DECBDC8817A7413A00022EF0 = {
 			isa = PBXGroup;
 			children = (
+				DEE1DA4517A8BF5800FD0A8E /* README.md */,
+				DEE1DA4717A8BF6C00FD0A8E /* LICENSE */,
 				DECBDC9A17A7413A00022EF0 /* PhotoSnap */,
 				DECBDCBE17A7413B00022EF0 /* PhotoSnapTests */,
 				DECBDC9317A7413A00022EF0 /* Frameworks */,
@@ -243,6 +249,8 @@
 				DECBDCA917A7413A00022EF0 /* Default@2x.png in Resources */,
 				DECBDCAB17A7413A00022EF0 /* Default-568h@2x.png in Resources */,
 				DECBDCAE17A7413A00022EF0 /* MainStoryboard.storyboard in Resources */,
+				DEE1DA4617A8BF5800FD0A8E /* README.md in Resources */,
+				DEE1DA4817A8BF6C00FD0A8E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
