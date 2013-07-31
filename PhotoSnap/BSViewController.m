@@ -56,9 +56,9 @@
 //    [UIImagePickerController availableMediaTypesForSourceType:
 //     UIImagePickerControllerSourceTypeCamera];
     
-    // Hides the controls for moving & scaling pictures, or for
-    // trimming movies. To instead show the controls, use YES.
-    cameraUI.allowsEditing = NO;
+    // YES Shows controls for moving & scaling pictures or for trimming movies.
+    // NO Hides the controls.
+    cameraUI.allowsEditing = YES;
     
     cameraUI.delegate = delegate;
     
