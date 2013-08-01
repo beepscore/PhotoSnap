@@ -96,7 +96,15 @@
     }
    
     // in iOS >= 5, use presentingViewController not parentViewController
-    // alternatively, if you call message on presented view controller it will be forwarded to presentingViewController.
+    // Alternatively, if you call message on presented view controller it will be forwarded to presentingViewController.
+    // Could move code above into dismissViewControllerAnimated:completion: completion block.
+    // However, the current code runs quickly, and not using completion block gives better user experience.
+    // Advantage of completion block:
+    // Avoids blocking main thread, useful if operation may be slow.
+    // For example, could use to when making network request to download an image.
+    // Disadvantage of completion block:
+    // The view transition happens first, then the imageView image changes.
+    // This is somewhant visually jarring.
     [picker.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
